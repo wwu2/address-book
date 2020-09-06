@@ -4,7 +4,7 @@ import { BsModalRef } from 'ngx-bootstrap/modal';
 @Component({
   selector: 'app-alert-dialog-modal',
   templateUrl: './alert-dialog-modal.component.html',
-  styleUrls: ['./alert-dialog-modal.component.sass']
+  styleUrls: ['./alert-dialog-modal.component.css']
 })
 export class AlertDialogModalComponent implements OnInit {
   @Input() message;
